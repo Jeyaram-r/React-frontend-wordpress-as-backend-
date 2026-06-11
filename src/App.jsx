@@ -1,10 +1,11 @@
-import Projects from "./Projects";
 
+import { BrowserRouter } from "react-router-dom";
+import MainRoutes from "./routes";
 function App() {
   return (
-    <div>
-      <Projects />
-    </div>
+    <BrowserRouter>
+          <MainRoutes />
+    </BrowserRouter>
   );
 }
 
